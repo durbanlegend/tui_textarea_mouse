@@ -1,5 +1,5 @@
 [package]
-name = "tui-textarea"
+name = "tui_textarea_mouse"
 version = "0.4.0"
 edition = "2021"
 rust-version = "1.56.1" # for `tui` crate support

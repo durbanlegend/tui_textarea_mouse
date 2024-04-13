@@ -15,7 +15,7 @@ use std::fs;
 use std::io;
 use std::io::{BufRead, Write};
 use std::path::PathBuf;
-use tui_textarea::{CursorMove, Input, Key, TextArea};
+use tui_textarea_mouse::{CursorMove, Input, Key, TextArea};
 
 macro_rules! error {
     ($fmt: expr $(, $args:tt)*) => {{
